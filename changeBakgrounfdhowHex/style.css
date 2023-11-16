@@ -1,0 +1,45 @@
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    height: 100vh;
+  }
+  
+.hexx-colors{
+  border: 1px solid black;
+  padding: 50px;
+}
+
+.hexx-colors h2{
+  font-size: 38px;
+  text-transform: uppercase;
+  animation: changecolor 5s infinite;
+}
+
+.hexx-colors h3{
+  border: 1px solid black;
+  padding: 15px;
+}
+
+
+@keyframes changecolor {
+  0%{
+    color: indigo;
+  }
+  20%{
+    color: blue;
+  }
+  40%{
+    color: black;
+  }
+  60%{
+    color: green;
+  }
+  80%{
+    color: cadetblue;
+  }
+ }
