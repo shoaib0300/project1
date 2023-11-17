@@ -1,0 +1,46 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+ }
+
+.main{
+    border: 10px solid black;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: rgb(210, 210, 210);
+    padding: 20px;
+    box-shadow: 0 5px 5px 0 black;
+}
+button{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(3, 230, 255);
+}
+button:hover{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: rgb(3, 230, 255);
+}
+
+.counter{
+    font-size: 150px;
+    text-align: center;
+    color: white;
+}
+.counter:hover{
+    transform: rotate(0.5turn);
+}
+.buttons{
+    text-align: center;
+    justify-content: space-between;
+}
+.heading{
+    text-align: center;
+}
