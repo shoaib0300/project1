@@ -1,0 +1,33 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+ }
+
+.message{
+    border: 1px solid black;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: salmon;
+    padding: 20px;
+    box-shadow: 0 5px 5px 0 black;
+}
+button{
+    width: fit-content;
+    border-radius: 5px;
+    background-color: beige;
+}
+.message input{
+    width: 80%;
+    border-radius: 5px;
+    padding: 0;
+}
+.message-head{
+    text-align: center;
+}
